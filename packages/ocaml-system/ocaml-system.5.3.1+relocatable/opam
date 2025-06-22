@@ -65,14 +65,9 @@ available:
 flags: [compiler avoid-version]
 build: ["ocaml" "gen_ocaml_config.ml"]
 dev-repo: "git+https://github.com/ocaml/ocaml"
-extra-files: [
-    [ "gen_ocaml_config.ml" "sha256=8b09a982824d7f2407867c24a7609eafc3eb57a19bcc5c66330a629f0d68e468" ]
-]
-extra-source "gen_ocaml_config.ml.in" {
-  src:
-    "https://raw.githubusercontent.com/ocaml/opam-source-archives/main/patches/ocaml-system/gen_ocaml_config.ml.in"
-  checksum: [
-    "sha256=71bcd3d35e28cbf71eda81991c8741268f4b87ced71573b2e75f64f136cebfc1"
-    "md5=093e7bec1ec95f9e4c6a313d73c5d840"
-  ]
+extra-source "gen_ocaml_config.ml" {
+    src: "https://raw.githubusercontent.com/spiceml/spice-opam-repo/refs/heads/main/packages/ocaml-system/ocaml-system.5.3.1%2Brelocatable/gen_ocaml_config.ml"
+    checksum: [
+        "sha256=8b09a982824d7f2407867c24a7609eafc3eb57a19bcc5c66330a629f0d68e468"
+    ]
 }
