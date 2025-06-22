@@ -65,6 +65,9 @@ available:
 flags: [compiler avoid-version]
 build: ["ocaml" "gen_ocaml_config.ml"]
 dev-repo: "git+https://github.com/ocaml/ocaml"
+extra-files: [
+    [ "gen_ocaml_config.ml" "sha256=8b09a982824d7f2407867c24a7609eafc3eb57a19bcc5c66330a629f0d68e468" ]
+]
 extra-source "gen_ocaml_config.ml.in" {
   src:
     "https://raw.githubusercontent.com/ocaml/opam-source-archives/main/patches/ocaml-system/gen_ocaml_config.ml.in"
