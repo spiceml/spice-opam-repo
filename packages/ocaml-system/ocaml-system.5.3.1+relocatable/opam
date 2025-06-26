@@ -62,7 +62,7 @@ depends: [
 conflict-class: "ocaml-core-compiler"
 available:
   sys-ocaml-version = "5.3.1+relocatable" & (os != "win32" | sys-ocaml-libc = "msvc")
-flags: [compiler avoid-version]
+flags: [compiler]
 build: ["ocaml" "gen_ocaml_config.ml"]
 dev-repo: "git+https://github.com/ocaml/ocaml"
 extra-source "gen_ocaml_config.ml" {
