@@ -66,7 +66,7 @@ flags: [compiler avoid-version]
 build: ["ocaml" "gen_ocaml_config.ml"]
 dev-repo: "git+https://github.com/ocaml/ocaml"
 extra-source "gen_ocaml_config.ml" {
-    src: "https://raw.githubusercontent.com/spiceml/spice-opam-repo/refs/heads/main/packages/ocaml-system/ocaml-system.5.3.1%2Brelocatable/gen_ocaml_config.ml"
+    src: "https://raw.githubusercontent.com/alicecaml/alice-opam-repo/refs/heads/main/packages/ocaml-system/ocaml-system.5.3.1%2Brelocatable/gen_ocaml_config.ml"
     checksum: [
         "sha256=8b09a982824d7f2407867c24a7609eafc3eb57a19bcc5c66330a629f0d68e468"
     ]
